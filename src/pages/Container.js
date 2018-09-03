@@ -8,6 +8,7 @@ import Clock from '../component/clock/clock'
 import Home from './home/Home'
 import Roster from './roster/Roster'
 import Example1 from './example1/Example1'
+import Example2 from './home/Example2'
 
 
 class Main extends Component {
@@ -23,6 +24,8 @@ class Main extends Component {
           <Route path='/roster/:id' component={Roster}/>
           {/*** 实例1 ***/}
           <Route path='/example1' component={Example1}/>
+          {/*** 实例2 ***/}
+          <Route path='/example2' component={Example2}/>
         </Switch>
       </div>
     );

@@ -16,6 +16,7 @@ class App extends Component {
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/roster/10'>Roster</Link></li>
               <li><Link to='/example1'>example1</Link></li>
+              <li><Link to='/example2'>example2</Link></li>
           </ul>
         </div>
         {/*** 右侧内容组件 ***/}
